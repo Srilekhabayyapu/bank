@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>event</title>
+<script type="text/javascript">
+function x(){
+var name=document.myform.uname.value;
+var name=document.myform.uname.value.length;
+var pwd=document.myform.pwd.value;
+var cpwd=document.myform.cpwd.value;
+var g=document.myform.gender[0].checked;
+var h=document.myform.gender[1].checked;
+var addr=document.myform.addr.value;
+if(uname==' ')
+{
+alert("enter the username");
+}
+elseif(lname<5)
+{
+alert("name has more than 5 characters");
+}
+elseif(pwd==' ')
+{
+alert("enter the password");
+}
+elseif(lpwd==' ')
+{
+alert("password must have five characters");
+}
+elseif(cpwd==' ')
+{
+alert("enter confirm password");
+}
+elseif(pwd!=cpwd)
+{
+alert("password does not matched");
+}
+elseif(g==false&&h==false)
+alert("enter gender");
+elseif(addr==' ')
+alert("enter the address");
+}
+</script>
+</head>
+<body>
+<form name="myform">
+<label>username:<input type="text" name=uname></label>
+<label>password:<input type="text" name=pwd></label>
+<label>confirm password:<input type="text" name=cpwd></label>
+<label>gender:<iput type="text" name=gender></label>
+<input type="button" value="submit" onclick="x()">
+</form>
+</body>
+</html>

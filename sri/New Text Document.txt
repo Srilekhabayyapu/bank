@@ -1,0 +1,14 @@
+<html>
+<body align="center">
+<h1>online bookstore</h1><br>
+<p>
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="home.html" target="parent"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="registration.html" target="f3"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="lohin.html" target="f3"></a>
+<br>
+</h2>
+</body>
+</html>

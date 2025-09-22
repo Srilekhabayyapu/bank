@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE bookstore[
+<!ELEMENT book (title,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<bookstore>
+<book>
+<title>c</title>
+<price>30</price>
+</book>
+</bookstore>
